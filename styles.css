@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* All icons used throught this page come from Flaticon.com */
+/* Images and plant sprites used in this page come from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fcypressdahlia%2Fart%2FIsometric-Plant-Sprites-800207714&psig=AOvVaw1XS9VdA4U0e0hpsXAmVWBX&ust=1628434009172000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCLCZ2saTn_ICFQAAAAAdAAAAABAD */
+
+:root{
+    --blue: #05386B;
+    --lighter-blue: #08529c;
+    --white: #EDF5E1;
+    --shop-grey: #E6E6E6;
+    --turquoise: #177563;
+    --light-turquoise: #239b85;
+}
+
+
+
+body{
+    font-family: 'Poppins';
+    background: #c96567;
+    color: var(--white);
+
+}
+
+/* Layout CSS */
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+.navbar-brand .blue
+{
+    color: var(--white);
+}
+.navbar-brand .dgreen
+{
+    color: var(--white);
+}
+
+.navbar-brand .green
+{
+    color: var(--white);
+}
+
+
+nav .nav-text{
+    color:var(--white);;
+    margin-right:auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+.navbar{
+    box-shadow: 1px 3px 2px 1px rgba(2, 2, 58, 0.2);
+}
+
+.landing-main-image{
+    height: 50vh;
+}
+
+.card-header
+{
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #644e5b;
+}
+
+.card
+{
+    background-color: #9E5A63;
+}
+.gyro-img
+{
+    height: 18vh;
+}
+.no-border
+{
+    border:none;
+}
+
+.google-sheet
+{
+    height: 50vh;
+}
+.food-menu-item
+{
+    font-size: 25px;
+}
+
+.card-text
+{
+    text-align: center;
+}
+
+
+.p-o-p
+{
+    height: 75vh;
+}
+
+.o-r
+{
+    height: 60vh;
+}
+
+#footer-text{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.fade-in{
+    animation: fadeIn 1s;
+}
+
+.social a {
+    font-size: 35px;
+    margin: 7px;
+}
+
+.fa-youtube {
+    color: var(--white);
+}
+
+.fa-instagram {
+    color: var(--white);
+}
+
+.fa-facebook {
+    color: var(--white);
+}
+
+.footer_text
+{
+    color: var(--white);
+}
+
+h3
+{
+    background-color: #644e5b;
+    padding: 10px;
+    margin: 0;
+}
+
+footer
+{
+    background-color: #644e5b;
+}
+
+nav
+{
+    background-color: #314455;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row{justify-content: center;}
+    #footer-text{padding: 10px;}
+
+    
+    .coin{height: 30px; width: 30px;}
+    .info-container{padding: 5px; border:none; box-shadow: none;}
+    .info-title{font-size: 35px;}
+    .info-text{font-size: 20px;}
+    .info-btn{width: auto; margin: 15px;}
+    
+    .shop-container{padding: 10px; border: none; box-shadow: none;}
+    .shop-title{letter-spacing: 5px;}
+
+    .index-text{font-size: 15px;}
+    .index-goal{padding: 15px}
+
+    .main-logo{font-size: 40px;}
+    .sub-header{font-size: 18px;}
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .main-logo{font-size: 60px;}
+    .sub-header{font-size: 20px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .main-logo{font-size: 80px;}
+    .sub-header{font-size: 25px;}
+} 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .main-logo{font-size: 100px;}
+    .sub-header{font-size: 33px;}
+} 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+}
